@@ -1,0 +1,97 @@
+.root {
+    -fx-font-family: 'Comfortaa', sans-serif;
+    -fx-background-color: #FFFFFF;
+}
+
+.bottom-bar {
+    -fx-padding: 10;
+    -fx-background-color: #f4f4f4;
+    -fx-alignment: bottom-left;
+}
+
+.box-close-button {
+    -fx-background-color: #D3D3D3;
+    -fx-text-fill: #000000;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 5 15;
+    -fx-border-radius: 3px;
+}
+
+.my-reviews-button {
+    -fx-background-color: #4787ff;
+    -fx-text-fill: #000000;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 5 15;
+    -fx-border-radius: 3px;
+}
+
+.main-container {
+    -fx-padding: 20;
+}
+
+.title-label {
+    -fx-font-family: 'Comfortaa', sans-serif;
+    -fx-font-size: 24px;
+    -fx-text-fill: #333333;
+}
+
+.search-container {
+    -fx-padding: 10;
+}
+
+.search-field {
+    -fx-border-color: #ff9900;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 5;
+    -fx-pref-width: 150;
+}
+
+.search-button {
+    -fx-background-color: #ff9900;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 5 10;
+}
+
+.course-table {
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-padding: 5;
+}
+
+.add-course-container {
+    -fx-padding: 10;
+}
+
+.add-field {
+    -fx-border-color: #28a745;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 5;
+    -fx-pref-width: 150;
+}
+
+.add-button {
+    -fx-background-color: #28a745;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 5 10;
+}
+
+.error-message {
+    -fx-text-fill: red;
+    -fx-font-size: 14px;
+    -fx-padding: 5;
+}
+
+.footer {
+    -fx-padding: 10;
+    -fx-alignment: center;
+    -fx-background-color: #f4f4f4;
+}

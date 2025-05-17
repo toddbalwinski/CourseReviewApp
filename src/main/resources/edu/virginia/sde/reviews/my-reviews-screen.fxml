@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="edu.virginia.sde.reviews.MyReviewsController"
+      stylesheets="@styles/my-reviews-screen.css">
+
+    <!-- Top bar with back button -->
+    <top>
+        <HBox alignment="CENTER_LEFT" spacing="10" styleClass="bottom-bar">
+            <Button text="Back to Course Search" 
+                    onAction="#handleBackButton"
+                    styleClass="box-close-button"/>
+        </HBox>
+    </top>
+
+    <!-- Main Content -->
+    <center>
+        <VBox alignment="CENTER" spacing="20" styleClass="main-container">
+            <!-- Title and Count -->
+            <Label fx:id="headerLabel" 
+                   text="My Course Reviews" 
+                   styleClass="title-label"/>
+            <Label fx:id="reviewCountLabel" 
+                   styleClass="count-label"/>
+            
+            <!-- Reviews List -->
+            <ScrollPane fitToWidth="true" styleClass="reviews-scroll" maxWidth="800" maxHeight="400">
+                <VBox fx:id="reviewsContainer" 
+                      styleClass="reviews-container" 
+                      spacing="10"/>
+            </ScrollPane>
+        </VBox>
+    </center>
+
+    <!-- Error Message Section -->
+    <bottom>
+        <VBox alignment="CENTER" spacing="5" styleClass="footer">
+            <Label fx:id="errorMessage" styleClass="error-message"/>
+        </VBox>
+    </bottom>
+
+</BorderPane>

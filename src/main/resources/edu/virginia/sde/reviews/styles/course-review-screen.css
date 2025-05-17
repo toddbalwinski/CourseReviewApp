@@ -1,0 +1,104 @@
+.root {
+    -fx-font-family: 'Comfortaa', sans-serif;
+    -fx-background-color: #FFFFFF;
+}
+
+/* Course title styling */
+.title-label {
+    -fx-font-family: 'Comfortaa', sans-serif;
+    -fx-font-size: 24px;
+    -fx-text-fill: #333333;
+    -fx-padding: 0 0 10 0;
+}
+
+/* Average rating label */
+.average-rating-label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #242323;
+    -fx-padding: 5 0 15 0;
+}
+
+/* Reviews container */
+.reviews-container {
+    -fx-padding: 10;
+    -fx-spacing: 10;
+}
+
+/* Individual review box */
+.review-box {
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-padding: 10;
+    -fx-background-color: #f8f8f8;
+}
+
+/* Rating selection area */
+.rating-box {
+    -fx-padding: 10;
+    -fx-spacing: 5;
+}
+
+.radio-button {
+    -fx-padding: 5;
+}
+
+/* Comment area */
+.comment-area {
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 5;
+    -fx-pref-width: 400;
+    -fx-pref-height: 100;
+}
+
+/* Submit and delete buttons */
+.submit-button {
+    -fx-background-color: #28a745;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 5 15;
+}
+
+.delete-button {
+    -fx-background-color: #dc3545;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 5 15;
+}
+
+/* Back button */
+.back-button {
+    -fx-background-color: #D3D3D3;
+    -fx-text-fill: #000000;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 5 15;
+    -fx-border-radius: 3px;
+}
+
+/* Container for add review section */
+.add-review-container {
+    -fx-padding: 15;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-background-color: #f4f4f4;
+    -fx-margin: 10 0;
+}
+
+/* Buttons hover effects */
+.submit-button:hover {
+    -fx-background-color: derive(#3da154, -10%);
+}
+
+.delete-button:hover {
+    -fx-background-color: derive(#dc3545, -10%);
+}
+
+.back-button:hover {
+    -fx-background-color: derive(#D3D3D3, -10%);
+}

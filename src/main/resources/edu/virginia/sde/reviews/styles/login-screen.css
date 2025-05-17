@@ -1,0 +1,66 @@
+.root {
+    -fx-font-family: 'Comfortaa', sans-serif;
+    -fx-background-color: #FFFFFF;
+}
+
+.top-bar {
+    -fx-padding: 10;
+}
+
+.box-close-button {
+    -fx-background-color: #D3D3D3;
+    -fx-text-fill: #000000;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 5 15;
+    -fx-border-radius: 3px;
+}
+
+.box-close-button:hover {
+    -fx-background-color: #B0B0B0;
+}
+
+.title-label {
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+.blue-accent-field {
+    -fx-background-color: #F0F8FF;
+    -fx-border-color: #ADD8E6;
+    -fx-border-width: 2px;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+    -fx-border-radius: 5px;
+    -fx-pref-width: 100px;
+}
+
+.orange-accent-button {
+    -fx-background-color: #FFA500;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-border-radius: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 3, 0, 1, 1);
+}
+
+.orange-accent-button:hover {
+    -fx-background-color: #FF8C00;
+}
+
+.footer {
+    -fx-padding: 10;
+}
+
+.footer-title {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+.footer-subtitle {
+    -fx-font-size: 10px;
+    -fx-text-fill: #555555;
+}

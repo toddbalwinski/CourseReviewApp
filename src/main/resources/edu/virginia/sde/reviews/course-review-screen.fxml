@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="edu.virginia.sde.reviews.CourseReviewsController"
+      stylesheets="@styles/course-review-screen.css">
+
+    <!-- Top bar with back button -->
+    <top>
+        <HBox alignment="CENTER_LEFT" spacing="10" styleClass="bottom-bar">
+            <Button fx:id="backButton"
+                    text="Back"
+                    onAction="#handleBackButton"
+                    styleClass="box-close-button"/>
+        </HBox>
+    </top>
+
+    <!-- Main Content -->
+    <center>
+        <VBox alignment="CENTER" spacing="20" styleClass="main-container">
+            <!-- Course Title and Average Rating -->
+            <VBox alignment="CENTER" spacing="5">
+                <Label fx:id="courseTitleLabel" styleClass="title-label"/>
+                <Label fx:id="averageRatingLabel" styleClass="average-rating-label"/>
+            </VBox>
+
+            <!-- Reviews List -->
+            <ScrollPane fitToWidth="true" styleClass="reviews-scroll" maxWidth="800" maxHeight="400">
+                <VBox fx:id="reviewsContainer" styleClass="reviews-container" spacing="10"/>
+            </ScrollPane>
+
+            <!-- Add/Edit Review Section -->
+            <VBox fx:id="addReviewContainer" styleClass="add-review-container" 
+                  spacing="10" maxWidth="800" alignment="CENTER">
+                <Label text="Your Rating:" styleClass="section-label"/>
+                
+                <HBox fx:id="ratingBox" styleClass="rating-box" 
+                      spacing="10" alignment="CENTER">
+                    <!-- Radio buttons will be added here programmatically -->
+                </HBox>
+
+                <Label text="Your Comment:" styleClass="section-label"/>
+                <TextArea fx:id="commentArea" 
+                          styleClass="comment-area"
+                          wrapText="true"
+                          prefRowCount="3"
+                          maxWidth="600"/>
+
+                <HBox spacing="10" alignment="CENTER">
+                    <Button fx:id="submitButton" 
+                            text="Submit Review" 
+                            onAction="#handleReviewSubmission"
+                            styleClass="submit-button"/>
+                    
+                    <Button fx:id="deleteButton" 
+                            text="Delete Review"
+                            onAction="#handleDeleteReview"
+                            styleClass="delete-button"
+                            visible="false"/>
+                </HBox>
+            </VBox>
+        </VBox>
+    </center>
+
+    <!-- Error Message Section -->
+    <bottom>
+        <VBox alignment="CENTER" spacing="5" styleClass="footer">
+            <Label fx:id="errorMessage" styleClass="error-message"/>
+        </VBox>
+    </bottom>
+
+</BorderPane>
