@@ -1,4 +1,6 @@
-# Homework 6 - Responding to Change
+# Course Review CRUD App
+
+This is a full-stack CRUD application that allows users to create accounts and review courses.
 
 ## Authors
 1) Elliot Hong, elliotSchmango
