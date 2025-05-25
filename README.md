@@ -1,6 +1,6 @@
 # Course Review CRUD App
 
-This project is a JavaFX-based GUI application designed to allow users to create, read, update, and delete (CRUD) course reviews. It was developed for CS 3140 Software Development Essesentials to demonstrate proficiency in JavaFX, SQLite database integration, and good software design practices.
+A JavaFX-based GUI application designed to allow users to create, read, update, and delete (CRUD) course reviews. It was developed for CS 3140 Software Development Essesentials to demonstrate proficiency in JavaFX, SQLite database integration, and good software design practices.
 
 ## Authors
 1) Elliot Hong, elliotSchmango
