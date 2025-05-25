@@ -20,7 +20,6 @@ This project is a JavaFX-based GUI application designed to allow users to create
 - **Backend:** Java
 - **Database:** SQLite
 - **Build Tool:** Gradle
-Optional ORM: Hibernate 6.6.2
 
 ## To Run
 
